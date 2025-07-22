@@ -1,0 +1,11 @@
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    #navbar ul {
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    #navbar ul li a {
+        text-align: left; /* Align text to the left for mobile */
+        padding: 12px 20px;
+    }
+}
